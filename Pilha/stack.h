@@ -1,0 +1,12 @@
+typedef struct stack Stack;
+void push(Stack* p, float v);
+Stack* create(void);
+float pop(Stack* p);
+int empty(Stack* p);
+void free_stack(Stack* p);
+void display_stack(Stack* p);
+float top_of_stack(Stack* p);
+void concatenate_stack(Stack* p1, Stack* p2);
+Stack* copy_stack(Stack* p);
+int equal_stacks(Stack* p1, Stack* p2);
+void remove_odd(Stack* p);

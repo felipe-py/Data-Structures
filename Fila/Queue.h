@@ -1,0 +1,11 @@
+typedef struct queue Queue;
+Queue* create(void);
+void insert(Queue* f, float v);
+float remove_queue(Queue* f);
+int empty(Queue* f);
+void free_queue(Queue* f);
+void display_queue(Queue* f);
+void odd_even_queue(Queue* f, Queue* f_odd, Queue* f_even);
+void merge_queue(Queue*f_main, Queue* f1, Queue* f2);
+int equal_queue(Queue* f1, Queue* f2);
+Queue* copy_queue(Queue* f);

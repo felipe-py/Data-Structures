@@ -1,0 +1,17 @@
+typedef struct tree Tree;
+Tree* start(void);
+void inorder(Tree* a);
+void postorder(Tree* a);
+void preorder(Tree* a);
+Tree* search(Tree* a, int v);
+Tree* insert(Tree* a, int v);
+int empty(Tree* a);
+Tree* free_tree(Tree* a);
+int tree_height(Tree* a);
+int n_nodes(Tree* a);
+int even_numbers(Tree*a);
+int greater_thanx(Tree*a, int x);
+int n_leaves(Tree* a);
+int n_nodesONE(Tree* a);
+int n_not_leaves(Tree* a);
+Tree* remove_info(Tree* a, int v);
